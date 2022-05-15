@@ -1,0 +1,189 @@
+h1 {
+  color: rgb(204, 204, 204);
+  font-size: 25px;
+  font-family: Montserrat;
+  animation-name: example2;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+
+@keyframes example2 {
+  0% {
+    opacity: 0;
+  }
+
+  /* {opacity: 50;} */
+  50% {
+    opacity: 80;
+  }
+
+  100% {
+    opacity: 100;
+  }
+}
+
+h2 {
+  border: solid;
+  border-radius: 10px;
+  color: gray;
+  text-align: left;
+  text-decoration-thickness: 3px;
+  background-color: gray;
+}
+
+h3 {
+  color: white;
+  background-color: black;
+  margin-top: 400px;
+  text-align: center;
+  border: solid;
+  border-radius: 15px;
+  border-width: 3px;
+  /* animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 5s; */
+}
+
+
+/* @keyframes example {
+0%  {text-align: left;}
+15% {margin-left: 50px;}
+25% {margin-left: 150px;}
+50% {margin-left: 370px;}
+100% {margin-right: 100px;}
+} */
+.p {
+  color: rgb(204, 204, 204);
+  font-size: 20px;
+  font-family: Montserrat;
+
+  /* padding : 250px; */
+}
+
+
+
+.para4 {
+  border-radius: 5px;
+  background-color: black;
+  font-size: 35px;
+}
+
+.b{
+  font-size : 25px;
+  font-family: Montserrat;
+}
+
+i {
+  margin-left: 2px;
+  margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(210, 210, 210);
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.active {
+  /* background-color: rgb(87, 179, 255); */
+  color: rgb(210, 210, 210);
+  font-family: Montserrat;
+}
+
+li a:hover {
+  background-color : gray;
+  color: white;
+  text-decoration: none;
+}
+.grayish{
+  font-size : 18px;
+  color : rgb(210, 210, 210);
+  font-family: Montserrat;
+}
+.grayish1 {
+  font-size : 18px;
+  color : white;
+  background-color : rgb(210, 210, 210);
+  font-family : Montserrat;
+}
+.grayish2{
+  font-size : 18px;
+  background-color : rgb(73, 73, 73);
+  color : white;
+  font-family : Montserrat;
+}
+
+.skills{
+  font-family: Montserrat;
+  color : rgb(210,210,210);
+}
+
+.imgclass1{
+  width : 15%;
+  float : left;
+}
+
+.thank{
+  background-color : #333;
+  color : rgb(210, 210, 210);
+  font-family : Montserrat;
+  margin-top : 400px;
+  text-align : center;
+  border-style : none;
+}
+
+.para5{
+  color : rgb(210, 210, 210);
+  font-family : Montserrat;
+  font-size : 20px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .thank {
+    font-size : 15px;
+    padding : 5px;
+    margin-top : 550px;
+  }
+}
